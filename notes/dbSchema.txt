@@ -1,0 +1,20 @@
+Game
+    String title
+    Number minPlayers
+    Number maxPLayers
+    Number playTime // in minutes
+    String[] designers
+    String[] artists
+    String[] mechanics
+    String comments
+    Boolean owned
+    
+List
+    String name
+    Boolean isOrdered
+    Game[] games
+    
+User
+    String username
+    List[] lists
+    User[] friends
